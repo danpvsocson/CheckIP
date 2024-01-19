@@ -31,7 +31,7 @@ namespace CheckIP
             desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
 
             // Initialize outputFilePath using desktopPath
-            outputFilePath = Path.Combine(desktopPath, "output.txt");
+            outputFilePath = Path.Combine(desktopPath, "output.csv");
         }
 
         private void find_Click(object sender, EventArgs e)
